@@ -16,7 +16,7 @@ if(isset($_POST['enviar'])) {
                 </ul>";
         $to = "hawksagencia@gmail.com";
         $headers =  'MIME-Version: 1.0' . "\r\n"; 
-        $headers .= 'From: Web contact - Hawks <xxxxxxxxxxxxxxxxxxx>' . "\r\n";
+        $headers .= 'From: Web contact - Hawks <no-reply@c2110965.ferozo.com>' . "\r\n";
         $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; 
         $mail = mail($to,$subject,$body,$headers);
         if($mail){
